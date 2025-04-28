@@ -17,6 +17,3 @@ def kontak():
 @app.route('/project')
 def project():
     return render_template('project.html')
-
-if __name__ == '__main__':
-    app.run(debug=True, port=5001)
